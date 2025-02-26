@@ -3,7 +3,7 @@
 <html lang="en-ca">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="My first webpage, with Java Script" />
+    <meta name="description" content="My first webpage, with PHP" />
     <meta name="keywords" content="mths, icd2o" />
     <meta name="author" content="Olivia TD" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -35,36 +35,18 @@
       href="./favicon-16x16.png"
     />
     <link rel="manifest" href="./site.webmanifest" />
-    <title>My first webpage, with JS</title>
+    <title>My first webpage, with JavaScript</title>
   </head>
-
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <script>
-      function myButtonClicked() {
-        alert("Hello, World!")
-      }
-    </script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Hello, World with JS!</span>
+          <span class="mdl-layout-title">Hello, World! with PHP</span>
         </div>
       </header>
       <main class="mdl-layout__content">
-        <div class="page-content">Click the button.</div>
-        <img src="./images/pink-computer.png" />
-        <!-- Simple Textfield for integers-->
-        <form action="#">
-          <br />
-          <!-- Raised button with ripple -->
-          <button
-            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            onclick="myButtonClicked()"
-          >
-            Click Me!
-          </button>
-        </form>
+          <?php echo '<p>Hello, World!</p>'; ?>
       </main>
     </div>
   </body>
